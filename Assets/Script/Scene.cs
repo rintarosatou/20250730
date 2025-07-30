@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ScenManager : MonoBehaviour
+public class Scene : MonoBehaviour
 {
-
     [SerializeField] private string nextSceneName = "NextScene";
     [SerializeField] private string previousSceneName = "PreviousScene";
 
